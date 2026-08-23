@@ -11,3 +11,4 @@ class Solution:
                     validate(node.right, node.val, high))
 
         return validate(root, float("-inf"), float("inf"))
+ 
